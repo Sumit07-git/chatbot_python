@@ -1,0 +1,124 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "hi there",
+                "is anyone there",
+                "hola",
+                "good day",
+                "yo"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "namaste",
+            "patterns": [
+                "namaste",
+                "pranam",
+                "namaskar",
+                "hello in hindi",
+                "namaste ji"
+            ],
+            "responses": [
+                "Namaste! 🙏 How are you today?",
+                "Pranam! Wishing you a wonderful day.",
+                "Namaskar! Hope you are doing well."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "see ya",
+                "farewell",
+                "take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks a lot",
+                "thank you very much",
+                "thx"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell me a joke",
+                "joke",
+                "make me laugh",
+                "say something funny"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar... apparently, the bar wasn't set high enough.",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "Never criticize someone until you've walked a mile in their shoes. That way, you’ll be a mile away and have their shoes!"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "whats up",
+                "wazzup",
+                "sup",
+                "how you doing",
+                "what's going on",
+                "what's happening"
+            ],
+            "responses": [
+                "All good... What about you?",
+                "Not much, just chatting here. You?",
+                "Everything's great! How about you?"
+            ]
+        },
+        {
+            "tag": "aboutbot",
+            "patterns": [
+                "who are you",
+                "what are you",
+                "what can you do",
+                "introduce yourself"
+            ],
+            "responses": [
+                "I'm a friendly chatbot built to answer your questions and make your day better!",
+                "I'm here to chat with you, answer queries, and maybe crack a joke or two."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "i need help",
+                "can you help me",
+                "please help"
+            ],
+            "responses": [
+                "Sure! Tell me what you need help with.",
+                "I'm here to help. What's troubling you?"
+            ]
+        }
+    ]
+}
